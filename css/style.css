@@ -12,7 +12,7 @@ p {
 }
 
 .circulo > .imagen {
-  width: 300px;
+  width: 266px;
   height: 300px;
   border-radius: 100%;
   margin-left: 0%;
@@ -21,4 +21,9 @@ p {
 
 body {
   background-color: rgb(0, 59, 126);
+}
+h1, h2,h3,h4, h5 {
+  color: rgb(255, 255, 255);
+}
+.negro {color: rgb(0, 0, 0);
 }
