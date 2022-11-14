@@ -22,59 +22,107 @@
 
 <body>
 
-  <nav class="navbar sticky-top navbar-expand-md bg-dark">
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <a class="navbar-brand"
-            href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa">
-            <img src="img/Argentina-programa.png" alt="Logo HTML5" width="230px"></a>
-  
-          <a class="navbar-brand position-absolute top-0 end-0" href="https://www.instagram.com/cristiancrispens02/"
-            style="padding-right: 200px; " target="_blank">
-            <i class="bi bi-instagram" style="font-size: 2.5rem; color: rgb(28, 87, 253);">
-              </i>
-          </a>
-  
-          <a class="navbar-brand position-absolute top-0 end-0"
-            href="https://www.linkedin.com/in/cristian-crispens-608b48241/ " style="padding-right: 140px;" target="_blank">
-            <i class="bi bi-linkedin" style="font-size: 2.5rem; color: rgb(28, 87, 253);">
-              </i>
-          </a>
-  
-          <a class="navbar-brand position-absolute top-0 end-0" href="https://github.com/Crispens02"
-            style="padding-right: 80px;" target="_blank">
-            <i class="bi bi-github" style="font-size: 2.5rem; color: rgb(28, 87, 253); "> 
-              </i>
-          </a>
-  
-  
-          <div class="btn-group">
-         
-            <button type="button" class="btn btn-link" data-bs-toggle="dropdown" aria-expanded="false">
-              Secciones
-            </button>
-            <ul class="dropdown-menu "style="margin-right: 0rem;">
-              <li><a class="dropdown-item" href="#">Perfil</a></li>
-              <li><a class="dropdown-item" href="#">Historial academico</a></li>
-              <li><a class="dropdown-item" href="#">Experiencia laboral</a></li>
-              <li><a class="dropdown-item" href="#">Skills</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Contacto</a></li>
-            </ul>
-          </div>
-  
-           
-  
-          
-          <li button type="button" class="btn btn-link position-absolute end-0" data-bs-toggle="modal"
-            data-bs-target="#exampleModal" style="margin-block-start: 0.5%;">
-            Ingresar
-           
+  <nav class="navbar sticky-top navbar-expand-lg bg-dark">
+    <div class="container-fluid  ">
+      <a
+        class="navbar-brand"
+        href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
+        target="blank"
+      >
+          <img src="img/Argentina-programa.png" class="imagen" alt="Logo HTML5" width="230px"
+        
+      /></a>
+      <li class="nav-item dropdown">
+        <button
+          type="button"
+          class="btn btn-primary dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style
+        >
+          Secciones
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark"  style="margin-left: 0rem">
+          <li>
+            <a class="dropdown-item" href="#item-header">Acerca de mi</a>
           </li>
+          <li>
+            <a class="dropdown-item" href="#item-historial"
+              >Historial academico</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item" href="#item-experiencia"
+              >Experiencia laboral</a
+            >
+          </li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li><a class="dropdown-item" href="#item-contacto">Contacto</a></li>
         </ul>
+      </li>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--div class="collapse navbar-collapse" id="navbarSupportedContent"-->
+  
+      
+        <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          
+          
+      
+         
+            <a
+              class="navbar-brand"
+              href="https://www.instagram.com/cristiancrispens02/"
+              target="blank"
+            >
+              <i
+                class="bi bi-instagram"
+                style="font-size: 2.5rem; color: rgb(28, 87, 253)"
+              >
+              </i>
+            </a>
+  
+            <a
+              class="navbar-brand"
+              href="https://www.linkedin.com/in/cristian-crispens-608b48241/ "
+              target="blank"
+              id="linkedin"
+            >
+              <i
+                class="bi bi-linkedin"
+                style="font-size: 2.5rem; color: rgb(28, 87, 253)"
+              >
+              </i>
+            </a>
+  
+            <a
+              class="navbar-brand"
+              href="https://github.com/Crispens02"
+              target="blank"
+            >
+              <i
+                class="bi bi-github"
+                style="font-size: 2.5rem; color: rgb(28, 87, 253)"
+              >
+              </i>
+            </a>
+            <button type="button" class="btn btn-primary border border-dark border-2 text-dark"
+            data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"><h1>→</h1></button>
+           
+        </ul>
+      
       </div>
     </div>
   </nav>
@@ -241,14 +289,23 @@
         <br>
         <br>
 
+      
 
-
-        <div class="alert alert-success" role="alert">
+        <div class="alert alert-dark" role="alert">
+          <img src="img/pie.png" alt="Logo HTML5" width="100%" height="100%">
           <h3 class="negro">Portfolio web</h3>
           <h5 Class="negro"> Junio 2022 - Enero 2023</h5>
           <h4 class="negro"><img src="img/icon.gmail.png " width="50" height="35" alt=""> Crispens02@gmail.com</h4>
         </div>
 
-</body>
+
+
+
+        
+      
+
+
+
+
 
 </html>
